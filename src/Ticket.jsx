@@ -64,7 +64,6 @@ const SeatReservation = () => {
       seat.status='X';
     }
     setCoach(newRow);
-    console.log(coach);
   }
   const renderSeatGrid = () => {
     return coach.map((row, rowIndex) => (
