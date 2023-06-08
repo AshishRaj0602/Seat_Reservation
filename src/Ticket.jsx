@@ -2,7 +2,7 @@ import React, { useState,useEffect } from 'react';
 import './SeatReservation.css';
 
 const SeatReservation = () => {
-  const TOTAL_ROWS = 11;
+  const TOTAL_ROWS = 12;
   const ROW_SIZE = 7;
   const LAST_ROW_SIZE = 3;
   const EMPTY_SEAT = 'O';
